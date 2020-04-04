@@ -32,7 +32,7 @@ object MigratoryBirds {
         // This Line is complexiy O(nlog n). So this solution with fail test-case-2 with 73K elements.
         arr.sort()
 
-        // other than that this algo works for sorted algo
+        // other than this algo works for sorted algo
         for (value in arr){
 
             if (type != value){
