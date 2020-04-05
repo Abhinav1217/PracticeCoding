@@ -1,7 +1,7 @@
 object BetweenTwoSets{
 
 
-  
+
     /** Get Greatest common factor between two numbers */
     fun getGCF(a:Int, b:Int):Int {
         if (a == 0){
@@ -37,14 +37,14 @@ object BetweenTwoSets{
 
     fun getTotalX(a:Array<Int>, b:Array<Int>):Int{
         var finalCount = 0
-        
+
         var lcm = getLCM(a)
 
         var gcf = getGCF(b)
 
     // Below is converted from Java's For loop code.
     // for(int i = lcm, j =2; i<=gcf; i=lcm*j,j++) {  if(gcf%i==0){ finalCount++;} }
-        
+
         var i = lcm  // We start from LCM
         var j = 2 // We ignore 0, 1 for math rules.
         // checking numbers between LCM and GCF
@@ -62,7 +62,7 @@ object BetweenTwoSets{
 
 
     @JvmStatic
-    fun main(args: Array<String>) { 
+    fun main(args: Array<String>) {
 
         // val n = 2 // Size of first array
         // val m = 3 // Size of second array
