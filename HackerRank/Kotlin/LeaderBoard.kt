@@ -3,7 +3,7 @@ object LeaderBoard {
     fun altMet(scores: Array<Int>, alice: Array<Int>): Array<Int> {
 
         var result = Array<Int>(alice.size){0}
-        var sc = java.util.ArrayDeque<Int>()
+        var sc = java.util.ArrayDeque<Int>() // Because Stacks in Java are considered bad
 
         for (i in scores.indices){
             if (i == 0 || sc.peek() != scores[i]){ sc.push(scores[i])}
