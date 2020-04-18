@@ -52,16 +52,6 @@ object HourGlass{
 
         // println("Scenerio 2 ${hourglassSum(arr)}")  // 28
 
-        arr = arrayOf(
-            arrayOf(  0, -4, -6,  0, -7, -6),
-            arrayOf( -1, -2, -6, -8, -3, -1),
-            arrayOf( -8, -4, -2, -8, -8, -6),
-            arrayOf( -3, -1, -2, -5, -7, -4),
-            arrayOf( -3, -5, -3, -6, -6, -6),
-            arrayOf( -3, -6,  0, -8, -6, -7)
-        )
-
-        println("Test Case 3 ${hourglassSum(arr)}")  // -19
 
         arr = arrayOf(
                 arrayOf(-1, -1,  0, -9, -2, -2),
@@ -72,6 +62,18 @@ object HourGlass{
                 arrayOf(-1, -3, -1, -2, -4, -5)
         )
 
-        println("Test Case 7 ${hourglassSum(arr)}")  // -6
+        println("Test Case 3 ${hourglassSum(arr)}")  // -6
+
+        arr = arrayOf(
+            arrayOf(  0, -4, -6,  0, -7, -6),
+            arrayOf( -1, -2, -6, -8, -3, -1),
+            arrayOf( -8, -4, -2, -8, -8, -6),
+            arrayOf( -3, -1, -2, -5, -7, -4),
+            arrayOf( -3, -5, -3, -6, -6, -6),
+            arrayOf( -3, -6,  0, -8, -6, -7)
+        )
+
+        println("Test Case 7 ${hourglassSum(arr)}")  // -19
+
     }
 }
