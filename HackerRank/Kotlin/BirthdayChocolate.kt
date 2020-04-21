@@ -18,7 +18,7 @@ object BirthdayChocolate {
                 return 1
             }
         }
-      
+
         // Sliding window
         // for kotlin `until` you need to add 1 to arr.size for the <= condition
         for (i in 0 until (s.size - m + 1)){
@@ -38,31 +38,31 @@ object BirthdayChocolate {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        
+
         var s:Array<Int>    // Numbers on the chocolate square
         var d:Int           // Birth Day
         var m:Int           // Birth Month
 
 
         //  Sample 0
-        s = arrayOf(1, 2, 1, 3, 2) 
-        d = 3 
-        m = 2 
+        s = arrayOf(1, 2, 1, 3, 2)
+        d = 3
+        m = 2
 
         println (birthday(s,d,m)) // 2
 
-        
+
         // Sample 1
-         s = arrayOf(4) 
-         d = 4 
-         m = 1 
+         s = arrayOf(4)
+         d = 4
+         m = 1
 
         println (birthday(s,d,m)) // 1
-        
+
         // Sample 2
-         s = arrayOf(1, 1, 1, 1, 1, 1) 
-         d = 3 
-         m = 2 
+         s = arrayOf(1, 1, 1, 1, 1, 1)
+         d = 3
+         m = 2
 
         println (birthday(s,d,m)) // 0
 
