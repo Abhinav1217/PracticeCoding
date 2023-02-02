@@ -1,0 +1,5 @@
+**/*.class
+**/*.jar
+**/*.exe
+../META_INF
+**test/*
